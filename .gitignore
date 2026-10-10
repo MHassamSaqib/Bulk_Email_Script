@@ -1,0 +1,36 @@
+# Secrets and local config
+.env
+.env.local
+.env.*.local
+
+# Personal documents
+*.pdf
+Hassam_CV.pdf
+Hassam_Cv.pdf
+*_CV.pdf
+*_Cv.pdf
+
+# Private faculty lists (keep only examples/ on GitHub)
+SEU/
+USTC/
+Xidian/
+NIU/
+Nanjing/
+Nanjing Forest University/
+**/*.raw_backup.csv
+
+# Runtime output
+email_results.json
+*.log
+
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+

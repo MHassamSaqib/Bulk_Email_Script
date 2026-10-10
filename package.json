@@ -1,0 +1,18 @@
+{
+  "name": "bulk_email_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bulk_email_sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parser": "^3.2.1",
+    "dotenv": "^18.0.7",
+    "nodemailer": "^10.0.16"
+  }
+}
